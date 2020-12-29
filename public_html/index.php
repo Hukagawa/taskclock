@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Hello PHP!</title>
-</head>
-<body>
 <?php
-    print 'Hello PHP!';
-?>
-</body>
-</html>
+
+use taskclock\database;
+
+include_once("../_task-clock/Database/database.class.php");
+
+    $DB = new database();
